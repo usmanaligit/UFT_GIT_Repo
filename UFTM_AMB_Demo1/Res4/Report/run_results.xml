@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>InsightObject.Click</Name>
+    <Description />
+    <StartTime>2021-03-27 10:40:04</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>InsightObject</Type>
+            <Name><![CDATA[InsightObject]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>8be2f9ed5a5c44ec8cfda1549968f994</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Device [Apple iPhone X]</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;ID: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;f90abeb50062c760a04787cd469547ab9856dc32&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;Manufacturer: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Apple&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;Model: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;iPhone X&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;OS Type: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;IOS&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;OS Version: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;11.2.1&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;Source: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;MC&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2021-03-27 10:40:04</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+        </Path>
+        <Operation> [Apple iPhone X]</Operation>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">ID: </span><span style="text-align : left; font-size : 12px; ">f90abeb50062c760a04787cd469547ab9856dc32</span></td></tr><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">Manufacturer: </span><span style="text-align : left; font-size : 12px; ">Apple</span></td></tr><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">Model: </span><span style="text-align : left; font-size : 12px; ">iPhone X</span></td></tr><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">OS Type: </span><span style="text-align : left; font-size : 12px; ">IOS</span></td></tr><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">OS Version: </span><span style="text-align : left; font-size : 12px; ">11.2.1</span></td></tr><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">Source: </span><span style="text-align : left; font-size : 12px; ">MC</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>972f8d9c1367452e9af5b8ef912a170a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2021-03-27 10:39:52</StartTime>
+    <Duration>12</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>f8759fa6f00c4783a5ff531d593a64b3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>UFTM_AMB_Demo1</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>0</ToolVersion>
+    <ToolVersionStringLiteral>15.0.2</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2021-03-27 10:39:47</StartTime>
+    <Duration>17</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>2e3c5d77184840169b157755d19bb404</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+08:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>CORPDOM\abdulrus</User>
+      <CpuInfo>Intel(R) Core(TM) i7-10850H CPU @ 2.70GHz</CpuInfo>
+      <NumberOfCores>12</NumberOfCores>
+      <TotalMemory>65278</TotalMemory>
+      <HostName>microfocus.com\INABDULRUS03</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res4</ResultName>
+    <RunStartTime>2021-03-27 10:39:47</RunStartTime>
+    <Timezone>+08:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>0</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>15.0.2</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

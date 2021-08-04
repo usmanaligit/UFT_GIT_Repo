@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>MobileButton.Tap</Name>
+    <Description />
+    <StartTime>2021-03-19 16:00:40</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[Advantage]]></Name>
+          </Object>
+          <Object>
+            <Type>MobileButton</Type>
+            <Name><![CDATA[MobileButton]]></Name>
+          </Object>
+        </Path>
+        <Operation>Tap</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[XCUIElementTypeButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[mcindex]]></Name>
+            <Value><![CDATA[0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[Button]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>078a553c8e1545ea95869d5883d60cc8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo>
+      <DeviceTime>2021-03-19 10:01:01.092</DeviceTime>
+      <TimeZone>Europe/Sofia (EET) offset 7200</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>LOGOUT.Tap</Name>
+    <Description />
+    <StartTime>2021-03-19 16:00:52</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[Advantage]]></Name>
+          </Object>
+          <Object>
+            <Type>MobileLabel</Type>
+            <Name><![CDATA[LOGOUT]]></Name>
+          </Object>
+        </Path>
+        <Operation>Tap</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[LOGOUT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[XCUIElementTypeStaticText]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[mcindex]]></Name>
+            <Value><![CDATA[0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[container]]></Name>
+            <Value><![CDATA[Table[0][7][0]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[Label]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[accessibilityid]]></Name>
+            <Value><![CDATA[LOGOUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7ed56a7afc1a4bbab9641d7a9a838d8e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>LOGOUT</Name>
+    <Description>Failed&amp;nbsp;to&amp;nbsp;connect&amp;nbsp;to&amp;nbsp;Micro&amp;nbsp;Focus&amp;nbsp;UFT&amp;nbsp;Mobile.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Text = LOGOUT&lt;br&gt;Native Class = XCUIElementTypeStaticText&lt;br&gt;Mercury Class = MobileLabel&lt;br&gt;mcindex = 0&lt;br&gt;container = Table[0][7][0]&lt;br&gt;DHTML Class = Label&lt;br&gt;accessibilityid = LOGOUT&lt;br&gt;</Description>
+    <StartTime>2021-03-19 16:00:52</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[Advantage]]></Name>
+          </Object>
+          <Object>
+            <Type>MobileLabel</Type>
+            <Name><![CDATA[LOGOUT]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Failed&nbsp;to&nbsp;connect&nbsp;to&nbsp;Micro&nbsp;Focus&nbsp;UFT&nbsp;Mobile.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[LOGOUT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[XCUIElementTypeStaticText]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[mcindex]]></Name>
+            <Value><![CDATA[0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[container]]></Name>
+            <Value><![CDATA[Table[0][7][0]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[Label]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[accessibilityid]]></Name>
+            <Value><![CDATA[LOGOUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7ed56a7afc1a4bbab9641d7a9a838d8e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2021-03-19 16:00:52</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>8766d5e1c3ae4f4799c1a89c9805a35e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Advantage [version 2.2.2]</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td style="text-align : left; font-size : 12px; font-weight : 600; "&gt;Package Name:&lt;/td&gt;&lt;td style="text-align : left; font-size : 12px; "&gt;com.hpe.advantage&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="text-align : left; font-size : 12px; font-weight : 600; "&gt;Version:&lt;/td&gt;&lt;td style="text-align : left; font-size : 12px; "&gt;2.2.2&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2021-03-19 16:00:40</StartTime>
+    <Duration>12</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[Advantage]]></Name>
+          </Object>
+        </Path>
+        <Operation> [version 2.2.2]</Operation>
+        <OperationData><![CDATA[<table><tr><td style="text-align : left; font-size : 12px; font-weight : 600; ">Package Name:</td><td style="text-align : left; font-size : 12px; ">com.hpe.advantage</td></tr><tr><td style="text-align : left; font-size : 12px; font-weight : 600; ">Version:</td><td style="text-align : left; font-size : 12px; ">2.2.2</td></tr></table>]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[instrumented]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[identifier]]></Name>
+            <Value><![CDATA[com.hpe.advantage]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>fc648cf280d243498c638ff67fb4821c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Device [Apple iPhone X]</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;ID: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;f90abeb50062c760a04787cd469547ab9856dc32&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;Manufacturer: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Apple&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;Model: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;iPhone X&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;OS Type: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;IOS&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;OS Version: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;11.2.1&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;Source: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;MC&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2021-03-19 16:00:40</StartTime>
+    <Duration>12</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+        </Path>
+        <Operation> [Apple iPhone X]</Operation>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">ID: </span><span style="text-align : left; font-size : 12px; ">f90abeb50062c760a04787cd469547ab9856dc32</span></td></tr><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">Manufacturer: </span><span style="text-align : left; font-size : 12px; ">Apple</span></td></tr><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">Model: </span><span style="text-align : left; font-size : 12px; ">iPhone X</span></td></tr><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">OS Type: </span><span style="text-align : left; font-size : 12px; ">IOS</span></td></tr><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">OS Version: </span><span style="text-align : left; font-size : 12px; ">11.2.1</span></td></tr><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">Source: </span><span style="text-align : left; font-size : 12px; ">MC</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>e22bec611dae4689ba030294c6e0271a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2021-03-19 16:00:29</StartTime>
+    <Duration>23</Duration>
+    <Result>Warning</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>731afffdaad44284b15136999554d7ba</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2021-03-19 16:00:52</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>09edd61628a042dbbb64cbbfadacfb9f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GUITest7</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>0</ToolVersion>
+    <ToolVersionStringLiteral>15.0.2</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2021-03-19 16:00:25</StartTime>
+    <Duration>27</Duration>
+    <Result>Warning</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>32fbaa2837f44e3e847335b18dc3a587</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+08:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>CORPDOM\abdulrus</User>
+      <CpuInfo>Intel(R) Core(TM) i7-10850H CPU @ 2.70GHz</CpuInfo>
+      <NumberOfCores>12</NumberOfCores>
+      <TotalMemory>65278</TotalMemory>
+      <HostName>microfocus.com\INABDULRUS03</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res4</ResultName>
+    <RunStartTime>2021-03-19 16:00:25</RunStartTime>
+    <Timezone>+08:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>0</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>15.0.2</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ResourceManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>e8ae7e45-3aec-4255-98bb-0c0fc8e86716</ID>
+  <Name>Flights_SO</Name>
+  <Type>WSDL</Type>
+  <Version>1</Version>
+  <CreationDate>2021-03-18T22:41:51.155912+08:00</CreationDate>
+  <UpdateDate>2021-03-18T22:41:51.155912+08:00</UpdateDate>
+  <LoaderID>SignatureResourceHandler</LoaderID>
+  <MetaDataSignatureFile>0fea97a1-f619-425b-8d2f-e30b801db411.xml</MetaDataSignatureFile>
+  <TestResourceId>0fea97a1-f619-425b-8d2f-e30b801db411</TestResourceId>
+  <RepositoryType>TestRepository</RepositoryType>
+  <SignatureCodonId>HP.ST.WebServiceWsdl</SignatureCodonId>
+  <SignatureAddinVersion>15.0.2.1306</SignatureAddinVersion>
+  <Properties>
+    <Item>
+      <Key>
+        <string>RepositoryPath</string>
+      </Key>
+      <Value>
+        <string>C:\Users\abdulrus\OneDrive - Micro Focus\Documents\Unified Functional Testing\APITest1\EmbeddedResources</string>
+      </Value>
+    </Item>
+    <Item>
+      <Key>
+        <string>ResourceOrigin</string>
+      </Key>
+      <Value>
+        <string>C:\Users\abdulrus\OneDrive - Micro Focus\Documents\Unified Functional Testing\APITest1\EmbeddedResources\Flights_SO</string>
+      </Value>
+    </Item>
+    <Item>
+      <Key>
+        <string>PrototypeDbVersion</string>
+      </Key>
+      <Value>
+        <string>15.0.2.1306</string>
+      </Value>
+    </Item>
+  </Properties>
+</ResourceManifest>

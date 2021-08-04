@@ -1,0 +1,806 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>LOGIN.Tap</Name>
+    <Description />
+    <StartTime>2021-03-19 15:55:09</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[Advantage]]></Name>
+          </Object>
+          <Object>
+            <Type>MobileButton</Type>
+            <Name><![CDATA[LOGIN]]></Name>
+          </Object>
+        </Path>
+        <Operation>Tap</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[LOGIN]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[XCUIElementTypeButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[mcindex]]></Name>
+            <Value><![CDATA[0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[Button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[accessibilityid]]></Name>
+            <Value><![CDATA[LOGIN]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>42c133e2aa3a4ac485fa472e104c5cac</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo>
+      <DeviceTime>2021-03-19 09:55:30.368</DeviceTime>
+      <TimeZone>Europe/Sofia (EET) offset 7200</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Savings.Tap</Name>
+    <Description />
+    <StartTime>2021-03-19 15:55:11</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[Advantage]]></Name>
+          </Object>
+          <Object>
+            <Type>MobileLabel</Type>
+            <Name><![CDATA[Savings]]></Name>
+          </Object>
+        </Path>
+        <Operation>Tap</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Savings]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[XCUIElementTypeStaticText]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[mcindex]]></Name>
+            <Value><![CDATA[0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[container]]></Name>
+            <Value><![CDATA[Table[0][0][0]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[Label]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[accessibilityid]]></Name>
+            <Value><![CDATA[Savings]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>63d107835ad342f0a469f8b155bb27d4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo>
+      <DeviceTime>2021-03-19 09:55:31.520</DeviceTime>
+      <TimeZone>Europe/Sofia (EET) offset 7200</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ic action back2.Tap</Name>
+    <Description />
+    <StartTime>2021-03-19 15:55:12</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[Advantage]]></Name>
+          </Object>
+          <Object>
+            <Type>MobileButton</Type>
+            <Name><![CDATA[ic action back2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Tap</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[ic action back2]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[XCUIElementTypeButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[mcindex]]></Name>
+            <Value><![CDATA[0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[Button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[accessibilityid]]></Name>
+            <Value><![CDATA[ic action back2]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>42c133e2aa3a4ac485fa472e104c5cac</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo>
+      <DeviceTime>2021-03-19 09:55:32.919</DeviceTime>
+      <TimeZone>Europe/Sofia (EET) offset 7200</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>MobileButton.Tap</Name>
+    <Description />
+    <StartTime>2021-03-19 15:55:13</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[Advantage]]></Name>
+          </Object>
+          <Object>
+            <Type>MobileButton</Type>
+            <Name><![CDATA[MobileButton]]></Name>
+          </Object>
+        </Path>
+        <Operation>Tap</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[XCUIElementTypeButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[mcindex]]></Name>
+            <Value><![CDATA[0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[Button]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>42c133e2aa3a4ac485fa472e104c5cac</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo>
+      <DeviceTime>2021-03-19 09:55:34.285</DeviceTime>
+      <TimeZone>Europe/Sofia (EET) offset 7200</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>MONEY TRANSFER.Tap</Name>
+    <Description />
+    <StartTime>2021-03-19 15:55:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[Advantage]]></Name>
+          </Object>
+          <Object>
+            <Type>MobileLabel</Type>
+            <Name><![CDATA[MONEY TRANSFER]]></Name>
+          </Object>
+        </Path>
+        <Operation>Tap</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[MONEY TRANSFER]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[XCUIElementTypeStaticText]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[mcindex]]></Name>
+            <Value><![CDATA[0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[container]]></Name>
+            <Value><![CDATA[Table[0][1][0]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[Label]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[accessibilityid]]></Name>
+            <Value><![CDATA[MONEY TRANSFER]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>63d107835ad342f0a469f8b155bb27d4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo>
+      <DeviceTime>2021-03-19 09:55:35.446</DeviceTime>
+      <TimeZone>Europe/Sofia (EET) offset 7200</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>MobileEdit_2.Tap</Name>
+    <Description />
+    <StartTime>2021-03-19 15:55:16</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[Advantage]]></Name>
+          </Object>
+          <Object>
+            <Type>MobileEdit</Type>
+            <Name><![CDATA[MobileEdit_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Tap</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[XCUIElementTypeTextField]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[mcindex]]></Name>
+            <Value><![CDATA[1]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[ispassword]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[Input]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>1b28a2029a08488380d5484bb3b32be2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo>
+      <DeviceTime>2021-03-19 09:55:37.126</DeviceTime>
+      <TimeZone>Europe/Sofia (EET) offset 7200</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Advantage [version 2.2.2]</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td style="text-align : left; font-size : 12px; font-weight : 600; "&gt;Package Name:&lt;/td&gt;&lt;td style="text-align : left; font-size : 12px; "&gt;com.hpe.advantage&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="text-align : left; font-size : 12px; font-weight : 600; "&gt;Version:&lt;/td&gt;&lt;td style="text-align : left; font-size : 12px; "&gt;2.2.2&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2021-03-19 15:55:09</StartTime>
+    <Duration>7</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[Advantage]]></Name>
+          </Object>
+        </Path>
+        <Operation> [version 2.2.2]</Operation>
+        <OperationData><![CDATA[<table><tr><td style="text-align : left; font-size : 12px; font-weight : 600; ">Package Name:</td><td style="text-align : left; font-size : 12px; ">com.hpe.advantage</td></tr><tr><td style="text-align : left; font-size : 12px; font-weight : 600; ">Version:</td><td style="text-align : left; font-size : 12px; ">2.2.2</td></tr></table>]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[instrumented]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[identifier]]></Name>
+            <Value><![CDATA[com.hpe.advantage]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a2b37703ab05428d946362d62c73ed1f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Device.EnterKeys</Name>
+    <Description>0, "100"</Description>
+    <StartTime>2021-03-19 15:55:16</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+        </Path>
+        <Operation>EnterKeys</Operation>
+        <OperationData><![CDATA[0, "100"]]></OperationData>
+      </TestObject>
+      <IconKey>79507c6c385e408b8b383bd5b912099f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo>
+      <DeviceTime>2021-03-19 09:55:38.352</DeviceTime>
+      <TimeZone>Europe/Sofia (EET) offset 7200</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>TRANSFER.Tap</Name>
+    <Description />
+    <StartTime>2021-03-19 15:55:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[Advantage]]></Name>
+          </Object>
+          <Object>
+            <Type>MobileButton</Type>
+            <Name><![CDATA[TRANSFER]]></Name>
+          </Object>
+        </Path>
+        <Operation>Tap</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[TRANSFER]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[XCUIElementTypeButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[mcindex]]></Name>
+            <Value><![CDATA[3]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[Button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[accessibilityid]]></Name>
+            <Value><![CDATA[TRANSFER]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>42c133e2aa3a4ac485fa472e104c5cac</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo>
+      <DeviceTime>2021-03-19 09:55:38.750</DeviceTime>
+      <TimeZone>Europe/Sofia (EET) offset 7200</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>OK.Tap</Name>
+    <Description />
+    <StartTime>2021-03-19 15:55:21</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[Advantage]]></Name>
+          </Object>
+          <Object>
+            <Type>MobileButton</Type>
+            <Name><![CDATA[OK]]></Name>
+          </Object>
+        </Path>
+        <Operation>Tap</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[OK]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[AlertButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[mcindex]]></Name>
+            <Value><![CDATA[4]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[Button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[accessibilityid]]></Name>
+            <Value><![CDATA[OK]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>42c133e2aa3a4ac485fa472e104c5cac</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo>
+      <DeviceTime>2021-03-19 09:55:39.916</DeviceTime>
+      <TimeZone>Europe/Sofia (EET) offset 7200</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>MobileButton.Tap</Name>
+    <Description />
+    <StartTime>2021-03-19 15:55:25</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[Advantage]]></Name>
+          </Object>
+          <Object>
+            <Type>MobileButton</Type>
+            <Name><![CDATA[MobileButton]]></Name>
+          </Object>
+        </Path>
+        <Operation>Tap</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[XCUIElementTypeButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[mcindex]]></Name>
+            <Value><![CDATA[0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[Button]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>42c133e2aa3a4ac485fa472e104c5cac</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo>
+      <DeviceTime>2021-03-19 09:55:43.082</DeviceTime>
+      <TimeZone>Europe/Sofia (EET) offset 7200</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>LOGOUT.Tap</Name>
+    <Description />
+    <StartTime>2021-03-19 15:55:52</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[Advantage]]></Name>
+          </Object>
+          <Object>
+            <Type>MobileLabel</Type>
+            <Name><![CDATA[LOGOUT]]></Name>
+          </Object>
+        </Path>
+        <Operation>Tap</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[LOGOUT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[XCUIElementTypeStaticText]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[mcindex]]></Name>
+            <Value><![CDATA[0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[container]]></Name>
+            <Value><![CDATA[Table[0][7][0]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[Label]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[accessibilityid]]></Name>
+            <Value><![CDATA[LOGOUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>63d107835ad342f0a469f8b155bb27d4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo>
+      <DeviceTime>2021-03-19 09:55:47.201</DeviceTime>
+      <TimeZone>Europe/Sofia (EET) offset 7200</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Yes.Tap</Name>
+    <Description />
+    <StartTime>2021-03-19 15:55:55</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[Advantage]]></Name>
+          </Object>
+          <Object>
+            <Type>MobileButton</Type>
+            <Name><![CDATA[Yes]]></Name>
+          </Object>
+        </Path>
+        <Operation>Tap</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Yes]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[AlertButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[mcindex]]></Name>
+            <Value><![CDATA[6]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[Button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[accessibilityid]]></Name>
+            <Value><![CDATA[Yes]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>42c133e2aa3a4ac485fa472e104c5cac</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo>
+      <DeviceTime>2021-03-19 09:56:14.343</DeviceTime>
+      <TimeZone>Europe/Sofia (EET) offset 7200</TimeZone>
+    </DeviceInfo>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Advantage [version 2.2.2]</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td style="text-align : left; font-size : 12px; font-weight : 600; "&gt;Package Name:&lt;/td&gt;&lt;td style="text-align : left; font-size : 12px; "&gt;com.hpe.advantage&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="text-align : left; font-size : 12px; font-weight : 600; "&gt;Version:&lt;/td&gt;&lt;td style="text-align : left; font-size : 12px; "&gt;2.2.2&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2021-03-19 15:55:18</StartTime>
+    <Duration>37</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+          <Object>
+            <Type>App</Type>
+            <Name><![CDATA[Advantage]]></Name>
+          </Object>
+        </Path>
+        <Operation> [version 2.2.2]</Operation>
+        <OperationData><![CDATA[<table><tr><td style="text-align : left; font-size : 12px; font-weight : 600; ">Package Name:</td><td style="text-align : left; font-size : 12px; ">com.hpe.advantage</td></tr><tr><td style="text-align : left; font-size : 12px; font-weight : 600; ">Version:</td><td style="text-align : left; font-size : 12px; ">2.2.2</td></tr></table>]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[instrumented]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[identifier]]></Name>
+            <Value><![CDATA[com.hpe.advantage]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a2b37703ab05428d946362d62c73ed1f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Device [Apple iPhone X]</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;ID: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;f90abeb50062c760a04787cd469547ab9856dc32&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;Manufacturer: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Apple&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;Model: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;iPhone X&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;OS Type: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;IOS&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;OS Version: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;11.2.1&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; font-weight : 600; "&gt;Source: &lt;/span&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;MC&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2021-03-19 15:55:09</StartTime>
+    <Duration>46</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Device</Type>
+            <Name><![CDATA[Device]]></Name>
+          </Object>
+        </Path>
+        <Operation> [Apple iPhone X]</Operation>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">ID: </span><span style="text-align : left; font-size : 12px; ">f90abeb50062c760a04787cd469547ab9856dc32</span></td></tr><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">Manufacturer: </span><span style="text-align : left; font-size : 12px; ">Apple</span></td></tr><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">Model: </span><span style="text-align : left; font-size : 12px; ">iPhone X</span></td></tr><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">OS Type: </span><span style="text-align : left; font-size : 12px; ">IOS</span></td></tr><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">OS Version: </span><span style="text-align : left; font-size : 12px; ">11.2.1</span></td></tr><tr><td><span style="text-align : left; font-size : 12px; font-weight : 600; ">Source: </span><span style="text-align : left; font-size : 12px; ">MC</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>79507c6c385e408b8b383bd5b912099f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2021-03-19 15:54:55</StartTime>
+    <Duration>60</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>77dfa0cfe4bf4425ac8500c94a95d760</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2021-03-19 15:54:55</StartTime>
+    <Duration>60</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>4c860fe2e589477e84e3126014d729e4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GUITest7</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>0</ToolVersion>
+    <ToolVersionStringLiteral>15.0.2</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2021-03-19 15:54:51</StartTime>
+    <Duration>64</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>9e6fbbebf4664d60b1fd2ccd1eb7d713</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+08:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>CORPDOM\abdulrus</User>
+      <CpuInfo>Intel(R) Core(TM) i7-10850H CPU @ 2.70GHz</CpuInfo>
+      <NumberOfCores>12</NumberOfCores>
+      <TotalMemory>65278</TotalMemory>
+      <HostName>microfocus.com\INABDULRUS03</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res1</ResultName>
+    <RunStartTime>2021-03-19 15:54:51</RunStartTime>
+    <Timezone>+08:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>0</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>15.0.2</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
