@@ -137,7 +137,7 @@
             XmlDocument StServiceCallActivity4_InputEnvelope_Document = new XmlDocument();
             StServiceCallActivity4_InputEnvelope_Document.PreserveWhitespace = true;
             StServiceCallActivity4_InputEnvelope_Document.LoadXml(
-@"<Envelope xmlns=""http://schemas.xmlsoap.org/soap/envelope/""><Body><GetFlights xmlns=""HP.SOAQ.SampleApp""><DepartureCity>Denver</DepartureCity><ArrivalCity>London</ArrivalCity><FlightDate>2021-03-25T00:00:00+08:00</FlightDate></GetFlights></Body></Envelope>");
+@"<Envelope xmlns=""http://schemas.xmlsoap.org/soap/envelope/""><Body><GetFlights xmlns=""HP.SOAQ.SampleApp""><DepartureCity>Denver</DepartureCity><ArrivalCity>London</ArrivalCity><FlightDate>2021-09-15T16:00:00+00:00</FlightDate></GetFlights></Body></Envelope>");
             _flow.StServiceCallActivity4.InputEnvelope = StServiceCallActivity4_InputEnvelope_Document;
             _flow.StServiceCallActivity4.Comment = @"";
             _flow.StServiceCallActivity4.IconPath = @"AddIns\ServiceTest\WSImportTechnology\ictb_service_operations_16.png";
@@ -174,7 +174,21 @@
             XmlDocument StServiceCallActivity5_InputEnvelope_Document = new XmlDocument();
             StServiceCallActivity5_InputEnvelope_Document.PreserveWhitespace = true;
             StServiceCallActivity5_InputEnvelope_Document.LoadXml(
-@"<Envelope xmlns=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:p1=""http://www.w3.org/2001/XMLSchema-instance""><Body><CreateFlightOrder xmlns=""HP.SOAQ.SampleApp""><FlightOrder><Class>First</Class><CustomerName>usman</CustomerName><DepartureDate>2021-03-25T00:00:00+08:00</DepartureDate><FlightNumber>20254</FlightNumber><NumberOfTickets>1</NumberOfTickets></FlightOrder></CreateFlightOrder></Body></Envelope>");
+@"<?xml version=""1.0"" encoding=""utf-8""?>
+<Envelope xmlns=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:p1=""http://www.w3.org/2001/XMLSchema-instance"">
+  <Header />
+  <Body>
+    <CreateFlightOrder xmlns=""HP.SOAQ.SampleApp"">
+      <FlightOrder>
+        <Class>First</Class>
+        <CustomerName>usman</CustomerName>
+        <DepartureDate>2021-09-15T00:00:00+00:00</DepartureDate>
+        <FlightNumber>20262</FlightNumber>
+        <NumberOfTickets>1</NumberOfTickets>
+      </FlightOrder>
+    </CreateFlightOrder>
+  </Body>
+</Envelope>");
             _flow.StServiceCallActivity5.InputEnvelope = StServiceCallActivity5_InputEnvelope_Document;
             _flow.StServiceCallActivity5.Comment = @"";
             _flow.StServiceCallActivity5.IconPath = @"AddIns\ServiceTest\WSImportTechnology\ictb_service_operations_16.png";

@@ -32,19 +32,19 @@
     <VarName>TestDir</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>C:\Users\abdulrus\OneDrive - Micro Focus\Documents\Unified Functional Testing\APITest1</SystemProfile>
+    <SystemProfile />
   </Profiles>
   <Profiles>
     <VarName>TestName</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>APITest1</SystemProfile>
+    <SystemProfile />
   </Profiles>
   <Profiles>
     <VarName>LocalHostName</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>INABDULRUS03</SystemProfile>
+    <SystemProfile>NIMBUSCLIENT</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>OS</VarName>
@@ -56,7 +56,7 @@
     <VarName>OSVersion</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>Microsoft Windows NT 10.0.18363.0</SystemProfile>
+    <SystemProfile>Microsoft Windows NT 10.0.17763.0</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>ProductDir</VarName>
@@ -80,13 +80,13 @@
     <VarName>UserName</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>abdulrus</SystemProfile>
+    <SystemProfile>demo</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>CurrentDate</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>3/18/2021 10:45:03 PM</SystemProfile>
+    <SystemProfile>9/2/2021 5:46:25 AM</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>QcUrl</VarName>

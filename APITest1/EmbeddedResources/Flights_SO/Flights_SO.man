@@ -4,8 +4,8 @@
   <Name>Flights_SO</Name>
   <Type>WSDL</Type>
   <Version>1</Version>
-  <CreationDate>2021-03-18T22:41:51.155912+08:00</CreationDate>
-  <UpdateDate>2021-03-18T22:41:51.155912+08:00</UpdateDate>
+  <CreationDate>2021-03-18T14:41:51.155912+00:00</CreationDate>
+  <UpdateDate>2021-03-18T14:41:51.155912+00:00</UpdateDate>
   <LoaderID>SignatureResourceHandler</LoaderID>
   <MetaDataSignatureFile>0fea97a1-f619-425b-8d2f-e30b801db411.xml</MetaDataSignatureFile>
   <TestResourceId>0fea97a1-f619-425b-8d2f-e30b801db411</TestResourceId>
@@ -18,7 +18,7 @@
         <string>RepositoryPath</string>
       </Key>
       <Value>
-        <string>C:\Users\abdulrus\OneDrive - Micro Focus\Documents\Unified Functional Testing\APITest1\EmbeddedResources</string>
+        <string>C:\Users\demo\Documents\GitHub\UFT_GIT_Repo\APITest1\EmbeddedResources</string>
       </Value>
     </Item>
     <Item>
@@ -26,7 +26,7 @@
         <string>ResourceOrigin</string>
       </Key>
       <Value>
-        <string>C:\Users\abdulrus\OneDrive - Micro Focus\Documents\Unified Functional Testing\APITest1\EmbeddedResources\Flights_SO</string>
+        <string>C:\Users\demo\Documents\GitHub\UFT_GIT_Repo\APITest1\EmbeddedResources\Flights_SO</string>
       </Value>
     </Item>
     <Item>
